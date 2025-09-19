@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100vh;
+    justify-content: center;
+}
+
+.header{
+    height: 100px;
+    width: 1520px;
+    background-color: blue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.chat-container{
+    width: 1520px;
+    height: 620px;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.complete-btn{
+    height:30px ;
+    width: 70px ;
+}
+
+.delete-btn{
+    height:30px ;
+    width: 70px ;
+}
+
+task.text{
+     height:30px ;
+    width: 70px ;
+}
+
+.task-input{
+
+    height:30px ;
+    width: 70px ;
+}
+
+.task {
+    padding: 10px;
+    border-bottom: 1px solid #a20b0b;
+}
+.task-input{
+    text-align: center;
+    display: flex;
+    background-color: rgb(28, 28, 136);
+    height: 200px;
+    width: 100px;
+}
+.add-task-btn {
+    background-color: #a20b0b;
+}
+.button{
+    height:50px ;
+    width: 50px ;
+    background-color: aquamarine;
+    color: blueviolet;
+}
+
+.task:last-child {
+    border-bottom: none;
+}
+
+.completed {
+    text-decoration: line-through;
+}
